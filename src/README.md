@@ -12,7 +12,7 @@ When we talk about imbalanced data sets in machine learning we are usually talki
 
 ### Why Do we Care?
 
-If we just throw imbalanced data directly into a machine learning algorithm, we are going to run into problems. The model no doubt will ignore the minority class as there are so few examples to train on in comparison to the majority class, so expect incorrect predictions for the underrepresented class. These erroneous predictions are especially bad if what we really care about predicting correctly is the minority class like in our cancer diagnosis example.
+If we just apply imbalanced data directly into a machine learning algorithm, we are going to run into problems. The model no doubt will ignore the minority class as there are so few examples to train on in comparison to the majority class, so expect incorrect predictions for the underrepresented class. These erroneous predictions are especially bad if what we really care about predicting correctly is the minority class like in our cancer diagnosis example.
 
 Imbalanced datasets are especially problematic for classification problem evaluations when using the accuracy metric of a [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix).
 
