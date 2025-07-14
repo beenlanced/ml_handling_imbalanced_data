@@ -104,6 +104,14 @@ Removes examples of the majority class to balance the data set (i.e., reduce exa
 
 #### Combining Oversampling and Undersampling
 
+Looking at combining techniques to get better classifier model performance
+
 #### Weighing Classes differently
 
+Don't do oversampling or undersampling, weigh the different classes to guide the learning model creation.
+
 #### Changing Algorithms
+
+Here think about using other algorithms like decision trees, random forests, or XGBoost that by their very nature mitigate imbalanced data sets.
+
+Ultimately, there is a fair amount of trial and error examing different techniques and evaluating models generated to see they achieve the desired performance at the appropriate resource costs!
