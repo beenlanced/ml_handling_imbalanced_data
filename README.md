@@ -4,15 +4,15 @@
   <img alt="Imbalanced Data Sets Visual" src="imgs/imbalanced_dataset.jpeg"/>
 </p>
 
-[img source: Amit Jangir Medium Article](https://medium.com/@amitkumarjangir2806/heres-how-you-can-tackle-imbalanced-datasets-559bd4b95dfa)
+[img source: Amit Jangir's Medium Article](https://medium.com/@amitkumarjangir2806/heres-how-you-can-tackle-imbalanced-datasets-559bd4b95dfa)
 
 ## Project Description
 
-This project was inspired by the [How to Handle Imbalanced Data in Machine Learning Classification](https://www.justintodata.com/imbalanced-data-machine-learning-classification/) article from authors of https://www.justintodata.com.
+This project was inspired by the [How to Handle Imbalanced Data in Machine Learning Classification](https://www.justintodata.com/imbalanced-data-machine-learning-classification/) article from the authors of https://www.justintodata.com.
 
-The goal of the project is to understand how to handle and mitigate imbalanced datasets in order to build classification models. When we talk about imbalanced data sets in machine learning we are usually talking about situations were the _label_ or _classes_ of a dataset are not distributed equally. A very common example in Machine Learning (ML) literature is if we want to predict Postivie Cancer diagnosis. Here we have two classes: Postive Cancer Diagnosis, (Cancer) and Negative Cancer Diagnosis (No Cancer). In such data sets, the number of positive cancer diagnosis are much less than negative or non-cancer diagnosis -- the data set classes are imbalanced.
+The goal of the project is to understand how to handle and mitigate imbalanced datasets in order to build classification models. When we talk about imbalanced data sets in machine learning we are usually talking about situations were the _label_ or _classes_ of a dataset are not distributed equally. A very common example in Machine Learning (ML) literature is if we want to predict Postivie Cancers. Here, we have two classes: Postive Cancer Diagnosis, (Cancer) and Negative Cancer Diagnosis (No Cancer). In such data sets, the number of positive cancer diagnosis are much less than negative or non-cancer diagnosis -- the data set classes are imbalanced.
 
-**Majority class** - is the more common label in a class-imbalanced dataset. For example, given a dataset containing 99% negative labels and 1% positive labels, the negative labels are the majority class, just like our cancer diagnosis example
+**Majority class** - is the more common label in a class-imbalanced dataset. For example, given a dataset containing 99% negative labels and 1% positive labels, the negative labels are the majority class, just like our cancer diagnosis example.
 
 **Minority class** - is the less common label in a class-imbalanced dataset. For example, given a dataset containing 99% negative labels and 1% positive labels, the positive labels are the minority class.
 
@@ -50,7 +50,6 @@ The project contains the key elements:
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white)
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -67,9 +66,9 @@ Here are some instructions to help you set up this project locally.
 
 ## Installation Steps
 
-- The Python version used for this project is `Python 3.12` to be compatible with some of the other packages
+- The Python version used for this project is `Python 3.12` to be compatible with some of the other packages,
 - `imblearn` version 0.0,
-- `scikit-learn` version 1.6.1,
+- `scikit-learn` version 1.6.1, and
 - `imbalanced-learn` version 0.13.0,
 
 ### Clone the Repo
@@ -80,7 +79,7 @@ Here are some instructions to help you set up this project locally.
    git clone https://github.com/beenlanced/ml_handling_imbalanced_data.git
    ```
 
-2. Create a virtual environment named `.venv` using `uv` Python version 3.11:
+2. Create a virtual environment named `.venv` using `uv` Python version 3.12:
 
    ```bash
    uv venv --python=3.12
