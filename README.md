@@ -87,7 +87,7 @@ Here are some instructions to help you set up this project locally.
 
 3. Activate the virtual environment: `.venv`
 
-   On macOs and Linux:
+   On macOS and Linux:
 
    ```bash
    source .venv/bin/activate #mac
