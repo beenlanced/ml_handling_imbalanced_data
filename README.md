@@ -33,7 +33,7 @@ The project:
 
 The project contains the key elements:
 
-- `Area Under the Receiver-Operating Characteris (ROC) Curve [(AUC)]` scoreing for classifer identification,
+- `Area Under the Receiver-Operating Characteris (ROC) Curve [(AUC)]` scoring for classifer identification,
 - `Git` (version control),
 - `imblearn` Python library to perform oversampling and undersampling,
 - `Jupyter` Python coded notebooks,
